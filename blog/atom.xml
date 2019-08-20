@@ -1,0 +1,28 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+
+	<title>SDSC Training Blog</title>
+	<link href="https://training.sdsc.edu/blog/atom.xml" rel="self"/>
+	<link href="https://training.sdsc.edu/blog"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>https://training.sdsc.edu/blog</id>
+	<author>
+		<name>Mary Thomas</name>
+		<email>mthomas at sdsc.edu</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="https://training.sdsc.edu{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>https://training.sdsc.edu{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
+
