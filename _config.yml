@@ -1,4 +1,4 @@
-url      : https://training.sdsc.edu     # the base hostname & protocol for your site 
+url      : https://hpc-training.sdsc.edu     # the base hostname & protocol for your site 
 baseurl: 
 webinarurl :  https://github.com/sdsc-training/webinars
 bootcampurl :  https://github.com/sdsc-training/bootcamps
