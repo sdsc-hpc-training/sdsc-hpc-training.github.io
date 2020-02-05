@@ -30,9 +30,14 @@ p {
     line-height: 1em;
     color: #333;
 }
+#sectitle {
+  text-align: left;
+  color: DodgerBlue;
+  font-weight: bold;
+}
 #paral {
   text-align: left;
-  color: Gray;
+  color: blue;
 }
 footer {
     border-top: 1px solid #d5d5d5;
