@@ -30,14 +30,15 @@ p {
     line-height: 1em;
     color: #333;
 }
-#sectitle {
+p.sectitle {
   text-align: left;
-  color: red;
+  color: dodgerblue;
   font-weight: bold;
 }
+
 #paral {
   text-align: left;
-  color: blue;
+  color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
