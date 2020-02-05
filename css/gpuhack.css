@@ -30,6 +30,18 @@ p {
     line-height: 1em;
     color: #333;
 }
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
 p.sectitle {
   text-align: left;
   color: dodgerblue;
