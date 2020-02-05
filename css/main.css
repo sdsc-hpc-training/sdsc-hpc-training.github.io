@@ -1,4 +1,5 @@
 body {
+    font-family: verdana;
     margin: 60px auto;
     width: 70%;
 }
@@ -24,6 +25,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
+    font-family: verdana;
     font-size: 1em;
     line-height: 1em;
     color: #333;
@@ -33,8 +35,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
