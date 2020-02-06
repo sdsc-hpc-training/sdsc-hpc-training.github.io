@@ -80,7 +80,6 @@ ul.posts li {
         margin: 4px 2px;
         cursor: pointer;
       }
-.center {
-  margin:auto;
-  width: 20%;
+.indent {
+  margin-left:2em;
 }
