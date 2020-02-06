@@ -19,8 +19,8 @@ There is no registration fee to attend the event. Breakfast, lunch, coffee and s
 
 ## Acceptance Timeline and Notification
 
-### Applications Deadline: March 11, 2020 
-### Accepted applicants will be notified by: March 25, 2020
+<b>Applications Deadline: March 11, 2020</b>
+<b>Accepted applicants will be notified by: March 25, 2020</b>
 ### Accepted teams should:
     * Register all team members for the event.
     * Review the attendee guide.
