@@ -1,15 +1,15 @@
-<img src="./images/May2020_GPUhack-header.png" alt="SDSC GPU Hackathon" width="500px" />
+<img src="./images/May2020_GPUhack-header.png" alt="SDSC GPU Hackathon" width="800px" />
 
 # May 2020 GPU Hackathon at SDSC
 ## May 11 at 9:00 am – May 15 at 2:00 pm
 SDSC at UC San Diego
 10100 Hopkins Drive, La Jolla, CA 92093
-Organized by the San Diego Supercomputer Center (SDSC)
 
 ## The GPU Hackathon is coming to San Diego!
-If you have an application that you are thinking about porting to GPUs, or an application already using GPUs that could use a helping hand getting that next level of performance, you should consider submitting to the San Diego GPU Hackathon.
+<b>If you have an application that you are thinking about porting to GPUs, or an application already using GPUs that could use a helping hand getting that next level of performance, you should consider submitting to the San Diego GPU Hackathon.</b>
+
 What is a GPU hackathon?
-SDSC GPU hackathons are 5-day intensive coding events that put application teams together with experts in programming and performance. The goal of the event is to port and optimize codes on GPU technologies in a focused, highly collaborative environment. GPU hackathons are part of an international program organized by NVIDIA to help train scientists and researchers to accelerate and optimize their applications on GPUs. See https://gpuhackathons.org/ for more information
+SDSC GPU hackathons are 5-day intensive coding events that put application teams together with experts in programming and performance. The goal of the event is to port and optimize codes on GPU technologies in a focused, highly collaborative environment. GPU hackathons are part of an international program organized by NVIDIA to help train scientists and researchers to accelerate and optimize their applications on GPUs. 
 
 ## What is the format?
 Each code team should consist of 4-6 code developers that together are intimately knowledgeable of the code. If a team proposal consists of a suite of applications, no more than two applications should be sent to the hackathon. For each individual code, at least 2 people must attend. Teams will be complimented by mentors that will be assigned based on expert knowledge that matches the needs of the code. Expertise in GPU computing is not required.
@@ -30,6 +30,8 @@ There is no registration fee to attend the event. Breakfast, lunch, coffee and s
     * Register all team members for the event.
     * Review the attendee guide.
     * Mentor introductions and computational resource access instructions will be forthcoming.
+[APPLY to SDSC's GPU Hackathon](https://gpuhackathons.org/form/register?hackathon_which_event=253)
+>For a full list of GPU Hackathons, see https://gpuhackathons.org/ for more information.
 
 ## Venue
 San Diego Supercomputer Center (SDSC) on the campus of UC San Diego
@@ -41,31 +43,30 @@ __Directions, parking and a full list of local hotel information__ can be found 
 ## Hotels located closest to SDSC and campus:
 
 ### Estancia La Jolla Hotel and Spa (located directly west of SDSC within a 5 min. walk)
-> 9700 N. Torrey Pines Road
-> La Jolla CA 92037
-> (858) 550-1000 	
+<br>9700 N. Torrey Pines Road
+<br>La Jolla CA 92037
+<br>(858) 550-1000</br>
 
 ### Hilton La Jolla Torrey Pines
-> 10950 N. Torrey Pines Rd.
-> La Jolla, CA 92037
-> (858) 558-1500 	
+<br>10950 N. Torrey Pines Rd.
+<br>La Jolla, CA 92037
+<br>(858) 558-1500</br>
 
 ### The Lodge at Torrey Pines
-> 11480 North Torrey Pines Rd.
-> La Jolla CA 92037
-> (858) 453-4420 	
+<br>11480 North Torrey Pines Rd.
+<br>La Jolla CA 92037
+<br>(858) 453-4420</br> 	
 
 ### The Residence Inn San Diego/La Jolla
-> 8901 Gilman Dr.
-> La Jolla, CA 92037
-> (858) 587-1770
-> (800) 331-3131 
+<br>8901 Gilman Dr.
+<br>La Jolla, CA 92037
+<br>(858) 587-1770
+<br>(800) 331-3131</br>
 
 ### Sheraton La Jolla Hotel
-> 3299 Holiday Ct. 
-> La Jolla, CA 92037  
-> (858) 453-5500 
-> (866) 500-0335 (UCSD dedicated #) 
+<br>3299 Holiday Ct. 
+<br>La Jolla, CA 92037  
+<br>(866) 500-0335 (UCSD dedicated #)</br>
 
 ## Questions?
 You may submit any questions about the SDSC GPU Hackathon to: events@sdsc.edu
