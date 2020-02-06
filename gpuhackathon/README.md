@@ -20,7 +20,7 @@ There is no registration fee to attend the event. Breakfast, lunch, coffee and s
 ## Acceptance Timeline and Notification
 
 <b>Applications Deadline: March 11, 2020</b>
-<b>Accepted applicants will be notified by: March 25, 2020</b>
+<br><b>Accepted applicants will be notified by: March 25, 2020</b></br>
 ### Accepted teams should:
     * Register all team members for the event.
     * Review the attendee guide.
@@ -40,28 +40,33 @@ __Directions, parking and a full list of local hotel information__ can be found 
 ### Estancia La Jolla Hotel and Spa (located directly west of SDSC within a 5 min. walk)
 <p>9700 N. Torrey Pines Road
 <br>La Jolla CA 92037
-<br>(858) 550-1000</br>
+<br>(858) 550-1000
+</p>
 
 ### Hilton La Jolla Torrey Pines
 <p>10950 N. Torrey Pines Rd.
 <br>La Jolla, CA 92037
-<br>(858) 558-1500</br>
+<br>(858) 558-1500
+</p>
 
 ### The Lodge at Torrey Pines
-<br>11480 North Torrey Pines Rd.
+<p>11480 North Torrey Pines Rd.
 <br>La Jolla CA 92037
-<br>(858) 453-4420</br> 	
+<br>(858) 453-4420
+</p>
 
 ### The Residence Inn San Diego/La Jolla
-<br>8901 Gilman Dr.
+<p>8901 Gilman Dr.
 <br>La Jolla, CA 92037
 <br>(858) 587-1770
-<br>(800) 331-3131</br>
+<br>(800) 331-3131
+</p>
 
 ### Sheraton La Jolla Hotel
-<br>3299 Holiday Ct. 
+<p>3299 Holiday Ct. 
 <br>La Jolla, CA 92037  
-<br>(866) 500-0335 (UCSD dedicated #)</br>
+<br>(866) 500-0335 (UCSD dedicated #)
+</p>
 
 ## Questions?
 You may submit any questions about the SDSC GPU Hackathon to: events@sdsc.edu
