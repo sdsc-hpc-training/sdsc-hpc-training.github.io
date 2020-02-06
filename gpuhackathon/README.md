@@ -33,7 +33,7 @@ San Diego Supercomputer Center (SDSC) on the campus of UC San Diego
 10100 Hopkins Drive, La Jolla, CA 92093
 Location: SDSC Auditorium EB212 - located on the ground level just off the driveway and north of the Hopkins Parking Structure.
 
-__Directions, parking and a full list of local hotel information__ can be found on the [SDSC Visitor Information] (https://www.sdsc.edu/about_sdsc/visitor_info.html) page.  When making hotel reservations it is recommended to call hotel directly to ask for a “UCSD rate”.  
+__Directions, parking and a full list of local hotel information__ can be found on the [SDSC Visitor Information](https://www.sdsc.edu/about_sdsc/visitor_info.html) page.  When making hotel reservations it is recommended to call hotel directly to ask for a “UCSD rate”.  
 
 ## Hotels located closest to SDSC and campus:
 
