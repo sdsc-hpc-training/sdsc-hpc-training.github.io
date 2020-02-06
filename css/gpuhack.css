@@ -68,3 +68,19 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+      .button {
+        background-color: #6699cc;
+        border: none;
+        color: white;
+        padding: 10px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+.center {
+  margin:auto;
+  width: 20%;
+}
