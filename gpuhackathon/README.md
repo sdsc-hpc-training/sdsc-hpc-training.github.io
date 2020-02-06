@@ -33,36 +33,36 @@ San Diego Supercomputer Center (SDSC) on the campus of UC San Diego
 10100 Hopkins Drive, La Jolla, CA 92093
 Location: SDSC Auditorium EB212 - located on the ground level just off the driveway and north of the Hopkins Parking Structure.
 
-__Directions, parking and a full list of local hotel information__ can be found on the SDSC Visitor Information page.  When making hotel reservations it is recommended to call hotel directly to ask for a “UCSD rate”.  
+__Directions, parking and a full list of local hotel information__ can be found on the [SDSC Visitor Information] (https://www.sdsc.edu/about_sdsc/visitor_info.html) page.  When making hotel reservations it is recommended to call hotel directly to ask for a “UCSD rate”.  
 
 ## Hotels located closest to SDSC and campus:
 
-### Estancia La Jolla Hotel and Spa (located directly west of SDSC within a 5 min. walk)
+### [Estancia La Jolla Hotel and Spa](https://meritagecollection.com/estancia-la-jolla) <i>(located directly west of SDSC within a 5 min. walk)</i>
 <p>9700 N. Torrey Pines Road
 <br>La Jolla CA 92037
 <br>(858) 550-1000
 </p>
 
-### Hilton La Jolla Torrey Pines
+### [Hilton La Jolla Torrey Pines](https://www3.hilton.com/en/hotels/california/hilton-la-jolla-torrey-pines-SANTPHH/index.html)
 <p>10950 N. Torrey Pines Rd.
 <br>La Jolla, CA 92037
 <br>(858) 558-1500
 </p>
 
-### The Lodge at Torrey Pines
+### [The Lodge at Torrey Pines](https://www.lodgetorreypines.com/)
 <p>11480 North Torrey Pines Rd.
 <br>La Jolla CA 92037
 <br>(858) 453-4420
 </p>
 
-### The Residence Inn San Diego/La Jolla
+### [The Residence Inn San Diego/La Jolla](https://www.marriott.com/hotels/travel/lajca-residence-inn-san-diego-la-jolla/)
 <p>8901 Gilman Dr.
 <br>La Jolla, CA 92037
 <br>(858) 587-1770
 <br>(800) 331-3131
 </p>
 
-### Sheraton La Jolla Hotel
+### [Sheraton La Jolla Hotel](https://www.marriott.com/hotels/travel/sanjs-sheraton-la-jolla-hotel/)
 <p>3299 Holiday Ct. 
 <br>La Jolla, CA 92037  
 <br>(866) 500-0335 (UCSD dedicated #)
