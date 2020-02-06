@@ -1,4 +1,4 @@
-<img src="./images/May2020_GPUhack-header.png" alt="SDSC GPU Hackathon" width="800px" />
+<img src="./images/gpuhackathon_weblogo.png" alt="SDSC GPU Hackathon" width="800px" />
 
 ## The GPU Hackathon is coming to San Diego!
 <b>If you have an application that you are thinking about porting to GPUs, or an application already using GPUs that could use a helping hand getting that next level of performance, you should consider submitting to the San Diego GPU Hackathon.</b>
