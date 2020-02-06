@@ -1,10 +1,5 @@
 <img src="./images/May2020_GPUhack-header.png" alt="SDSC GPU Hackathon" width="800px" />
 
-# May 2020 GPU Hackathon at SDSC
-## May 11 at 9:00 am – May 15 at 2:00 pm
-SDSC at UC San Diego
-10100 Hopkins Drive, La Jolla, CA 92093
-
 ## The GPU Hackathon is coming to San Diego!
 <b>If you have an application that you are thinking about porting to GPUs, or an application already using GPUs that could use a helping hand getting that next level of performance, you should consider submitting to the San Diego GPU Hackathon.</b>
 
