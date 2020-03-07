@@ -39,7 +39,6 @@ p.normal {
 }
 
 p.descr {
-  font-style: large;
   font-style: italic;
   text-align: center;
   color: black;
@@ -56,6 +55,7 @@ p.news {
   text-align: left;
   color: darkred;
   font-weight: bold;
+font-size: large;
 }
 p.newsitem {
   text-align: left;
