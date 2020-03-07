@@ -96,6 +96,9 @@ ul.posts li {
         margin: 4px 2px;
         cursor: pointer;
       }
+ .tab { 
+     margin-left: 40px; 
+}
 .indent {
   margin-left:2em;
 }
