@@ -42,6 +42,12 @@ p.oblique {
   font-style: oblique;
 }
 
+p.news {
+  text-align: left;
+  color: darkred;
+  font-weight: bold;
+}
+
 p.sectitle {
   text-align: left;
   color: dodgerblue;
