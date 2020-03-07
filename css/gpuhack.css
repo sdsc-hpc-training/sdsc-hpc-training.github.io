@@ -34,6 +34,7 @@ p.normal {
   font-style: normal;
 }
 
+
 p.italic {
   font-style: italic;
 }
@@ -45,6 +46,11 @@ p.oblique {
 p.news {
   text-align: left;
   color: darkred;
+  font-weight: bold;
+}
+p.newsitem {
+  text-align: left;
+  color: indianred;
   font-weight: bold;
 }
 
