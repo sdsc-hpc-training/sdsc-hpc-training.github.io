@@ -55,116 +55,173 @@ layout: default
   <tr><td align='left' valign='top'> &nbsp; </td></tr>
   <tr><td align='left' valign='top'>
     <p class="newscenter">GPU Hackathon Attendee Guide</p>
-  <p> &nbsp; </p>
-  <p class="indent"><small><font color="red"> This guide currently reflects an in-person event
-    and will be updated as plans are formulated for remote collaboration.
-  </font></small></p>
-    </td></tr>
+    <p> &nbsp; </p>
+    <p class="indent"><small><font color="red"> This guide currently reflects an in-person event
+      and will be updated as plans are formulated for remote collaboration.
+    </font></small></p>
+  </td></tr>
   <tr><td align='left' valign='top'> &nbsp;  </td></tr>
   <tr><td align='left' valign='top'>
     <p class="paral">
-A GPU hackathon is a 5-day coding event in which your team of developers will
-prepare your application(s) to run on GPUs, or focus on optimizing your application(s)
-that currently run on GPUs. Your team should consist of three or more developers who are
-intimately familiar with (some part of) your application, and you will work alongside
-1-2 mentors with GPU programming expertise. The mentors come from universities,
-national laboratories, supercomputing centers, government institutions, and vendors.
+      A GPU hackathon is a 5-day coding event in which your team of developers will
+      prepare your application(s) to run on GPUs, or focus on optimizing your application(s)
+      that currently run on GPUs. Your team should consist of three or more developers who are
+      intimately familiar with (some part of) your application, and you will work alongside
+      1-2 mentors with GPU programming expertise. The mentors come from universities,
+      national laboratories, supercomputing centers, government institutions, and vendors.
     </p>
     <p> &nbsp; </p>
     <p class="indent">
-    <b>Notes: </b>This document assumes a 5-day event held Monday - Friday from 8 AM - 5 PM
-  each day except Friday, where the event officially ends sometime between 1-3 PM.
+      <b>Notes: </b>This document assumes a 5-day event held Monday - Friday from 8 AM - 5 PM
+      each day except Friday, where the event officially ends sometime between 1-3 PM.
     </p>
-    </td></tr>
-    <tr><td align='left' valign='top'> &nbsp;  </td></tr>
-    <tr><td align='left' valign='top'>
+  </td></tr>
+  <tr><td align='left' valign='top'> &nbsp;  </td></tr>
+  <tr><td align='left' valign='top'>
     <table border="1" width=100% align="left">  <!--- begin info table --->
       <tr><td align='left' valign='top' >
         <p class="sectitle">Preparing for a Hackathon</p>
         <p> &nbsp; </p>
-            <p class="indent">This section outlines recommendations gathered from
-              participants and mentors over the years on how to prepare for a
-              hackathon. While each team will proceed differently in practice,
-              we find that teams who follow these suggestions typically have the
-              greatest success.  </p>
-    </td></tr>
-    <tr><td align='left' valign='top'> &nbsp;  </td></tr>
-      <tr><td align='left' valign='top' >
-        <p class="sectitle">Attending a Hackathon:</p>
+        <p class="indent">This section outlines recommendations gathered from
+          participants and mentors over the years on how to prepare for a
+          hackathon. While each team will proceed differently in practice,
+          we find that teams who follow these suggestions typically have the
+          greatest success.  </p>
           <p> &nbsp; </p>
+          <p><b>Team Introductions:</b></p>
+          <p> &nbsp; </p>
+          <p class="indent">
+            In the weeks leading up to the event, the local hackathon organizer will send
+            an email introducing your team to the mentor(s) you will be working with.
+            Your team and mentor(s) should then schedule a web meeting to address the
+            following topics:
+            <blockquote>
+              <ul>
+                <li>Team and Mentor introductions. </li>
+                <li>Discuss code(s) your team will be working on
+                  (give code access where appropriate). </li>
+                  <li>Determine which compute system(s) your team will use during the event. </li>
+                  <li>Assign any action items based on discussions. </li>
+                </ul>
+              </blockquote>
+            </p>
+            <p class="indent">This initial meeting will help get your team organized and ensure that everyone is on same page for follow-up discussions.
+            </p>
+            <p> &nbsp; </p>
+            <p class="indent">blah blah</p>
+            <p> &nbsp; </p>
+            <p><b>Obtain Access to the Hackathon Compute System:</b></p>
+            <p> &nbsp; </p>
+            <p class="indent">
+              They intend to use at the hackathon before the start of the
+              event. This gives you the opportunity to familiarize yourself with aspects of
+              the system that might be new to you (e.g. different batch scheduler, job
+              launcher, etc.) and also to get your application compiled and running on the
+              system. This helps to ensure your team is ready to start programming GPUs on
+              the system when you arrive for the event, instead of spending time learning
+              how to use the system.
+            </p>
+            <p> &nbsp; </p>
+            <p><b>Preparing Your Code to Run on the Hackathon Compute System:</b></p>
+            <p> &nbsp; </p>
+            <p class="indent">
+              Although you might be using your application for production work already, that does not ensure it is ready for the work you will be performing at the hackathon. For example, if your code takes four hours to produce results, it will be difficult to test the many incremental changes you will likely be making to your code during the event. To address this point, this section outlines recommendations for preparing your application for the event.
+            </p>
+            <p class="indent">Ideally, your application should be limited to a few thousand lines of code. If you are working with a much larger application, it is preferable to extract specific kernels or a “mini-app” that contains only the relevant parts of the full application whenever possible. This makes the code more manageable for all your team members (including the mentors - who are likely not familiar with the code) and helps to eliminate potential problems with other parts of the code that are unrelated to the work being performed. Once you have your reduced application running on the GPUs, you can add the changes you made into the full application to understand how it speeds up (or slows down) the application as a whole.
+            </p>
+            <p class="indent">
+              Your code should also be self-contained whenever possible. By eliminating external dependencies (e.g. netCDF), you will not need to rely on specific packages (or specific versions of packages) being available on the hackathon system. To do so, you can include any code needed for external dependencies within (or alongside) your application. If this is not possible/practical, you should make the dependency known to the local hackathon organizer ahead of the event so it can be installed. In addition, your build system should be free of any specific system dependencies (e.g. Cray computing environment). Removing these external and system-specific dependencies will make it easier to get your code running on the hackathon system.
+            </p>
+            <p class="indent">
+              It is also important to understand any dependencies that might arise due to your choice of programming model. For example, if you plan to use OpenACC to target GPUs, you will likely want to use the PGI compilers (or now possibly later versions of GCC), so you need to make sure your code compiles with PGI. Doing so before the event helps to ensure your time at the hackathon is actually spent on GPU work (not getting your code compiled). Your mentors should be able to help you identify these types of dependencies.
+            </p>
+            <p class="indent">
+              After making any such changes to your code (e.g., using different compiler, extracting kernels, building your own libraries), you should always confirm that your application still compiles, runs, and (of course) gives the correct results. Ideally, this should be done on the system(s) you will be using during the event. This workflow (make changes - compile - run - check results) will be used frequently during the week of the event, so it is important that the process is efficient. In general, you should configure your application to run in ~30s, and only run it on a single process (if possible).
+            </p>
+            <p class="indent">blah blah</p>
+            <p> &nbsp; </p>
+            <p><b>Understanding Your Code and Simplifying Your Workflow:</b></p>
+            <p> &nbsp; </p>
+            <p class="indent">blah blah</p>
+            <p> &nbsp; </p>
+          </td></tr>
+          <tr><td align='left' valign='top'> &nbsp;  </td></tr>
+          <tr><td align='left' valign='top' >
+            <p class="sectitle">Attending a Hackathon:</p>
+            <p> &nbsp; </p>
+            <p class="indent">
+              During the hackathon, your team will work alongside your mentor(s)
+              on the goals you have (hopefully) set during the pre-hackathon meetings.
+              In addition, there are presentations and morning updates that your
+              team will participate in.</p>
+              <p> &nbsp; </p>
+              <p><b>Introduction Presentations:</b></p>
+              <p> &nbsp; </p>
               <p class="indent">
-            During the hackathon, your team will work alongside your mentor(s)
-            on the goals you have (hopefully) set during the pre-hackathon meetings.
-            In addition, there are presentations and morning updates that your
-            team will participate in.</p>
-<p> &nbsp; </p>
-<p><b>Introduction Presentations:</b></p>
-<p> &nbsp; </p>
-<p class="indent">
-On Monday morning, the first order of business will be for one member of each
-team to give a short (5 minutes / 5 slides) presentation introducing their team.
-Ideally, this should include an introduction of your team members, a very brief
-description of your application, a profile of your code (showing compute-intensive
-regions), and your goals for the week (parts of your code you will be targeting,
-anticipated speedup, intended programming model - e.g. OpenACC, CUDA, etc.).
-NOTE: It is important to keep these presentations brief to maximize the amount
-of time the teams have to hack code, so although the science behind your
-application is probably very interesting, please limit the presentation to the
-relevant parts of your code needed to convey your work at the hackathon. Also,
-remember that most participants are probably not familiar with your specific
-domain, so please keep the jargon to a minimum.
-</p>
-<p> &nbsp; </p>
-<p><b>Morning Updates (Scrum Sessions):</b></p>
-<p> &nbsp; </p>
-<p class="indent">On Tuesday through Thursday mornings,
-  each team will give a short (3 minute / 2-3 slides) update, including</p>
-<ul>
-  <li>Progress made since last update.</li>
-  <li>Goals for the day.</li>
-  <li>Problems you are currently facing.</li>
-  <li>Problems you have resolved (that other teams might find useful).</li>
-</ul>
-<p class="indent">In addition to sharing your progress, these updates are opportunities to
-get feedback from other teams and mentors. There is a chance that a
-problem you are facing has already been encountered and resolved by someone else. Or you might have found and resolved a problem (or reported a bug) that other teams might currently be facing. These hackathons are meant to be cooperative events among all participants, and these update sessions are central to that theme.
-</p>
-<p> &nbsp; </p>
-<p><b>Final Presentations:</b></p>
-<p> &nbsp; </p>
-<p class="indent">On Friday morning, the teams will finish up their development work for the week and give a final presentation (5-7 minutes / 5-7 slides) detailing their accomplishments; issues they ran into, how they resolved them, speedups they obtained, as well as their closing thoughts on the event and what they learned. The final day typically ends around 1-3 PM to allow participants to arrange travel home.
-</p>
-    </td></tr>
+                On Monday morning, the first order of business will be for one member of each
+                team to give a short (5 minutes / 5 slides) presentation introducing their team.
+                Ideally, this should include an introduction of your team members, a very brief
+                description of your application, a profile of your code (showing compute-intensive
+                regions), and your goals for the week (parts of your code you will be targeting,
+                anticipated speedup, intended programming model - e.g. OpenACC, CUDA, etc.).
+                NOTE: It is important to keep these presentations brief to maximize the amount
+                of time the teams have to hack code, so although the science behind your
+                application is probably very interesting, please limit the presentation to the
+                relevant parts of your code needed to convey your work at the hackathon. Also,
+                remember that most participants are probably not familiar with your specific
+                domain, so please keep the jargon to a minimum.
+              </p>
+              <p> &nbsp; </p>
+              <p><b>Morning Updates (Scrum Sessions):</b></p>
+              <p> &nbsp; </p>
+              <p class="indent">On Tuesday through Thursday mornings,
+                each team will give a short (3 minute / 2-3 slides) update, including</p>
+                <ul>
+                  <li>Progress made since last update.</li>
+                  <li>Goals for the day.</li>
+                  <li>Problems you are currently facing.</li>
+                  <li>Problems you have resolved (that other teams might find useful).</li>
+                </ul>
+                <p class="indent">In addition to sharing your progress, these updates are opportunities to
+                  get feedback from other teams and mentors. There is a chance that a
+                  problem you are facing has already been encountered and resolved by someone else. Or you might have found and resolved a problem (or reported a bug) that other teams might currently be facing. These hackathons are meant to be cooperative events among all participants, and these update sessions are central to that theme.
+                </p>
+                <p> &nbsp; </p>
+                <p><b>Final Presentations:</b></p>
+                <p> &nbsp; </p>
+                <p class="indent">On Friday morning, the teams will finish up their development work for the week and give a final presentation (5-7 minutes / 5-7 slides) detailing their accomplishments; issues they ran into, how they resolved them, speedups they obtained, as well as their closing thoughts on the event and what they learned. The final day typically ends around 1-3 PM to allow participants to arrange travel home.
+                </p>
+              </td></tr>
 
-  <tr><td align='left' valign='top'> &nbsp;  </td></tr>
-  <tr><td align='left' valign='top' >
-    <p class="sectitle">Acknowledgements:</p>
-    <p> &nbsp; </p>
-        <p class="indent">If the work you accomplish at the hackathon leads to a
-          future publication, we encourage you to recognize the mentor(s) and
-          hackathon in the acknowledgement section of the publication. E.g.,</p>
-          <blockquote>
-          <p class="indent"><em>The authors would like to thank [Organizers of event]
-            for organizing the [Year][Name of Specific Hackathon] and give special
-            thanks to our mentors [Name of Mentor(s)] for their contributions
-            to this work</em></p>
-                </blockquote>
-          <p class="indent">Remember, the mentors volunteer their time to help at
-            these events and such recognition is a nice way of saying thank you.</p>
-        </p>
-</td></tr>
-<tr><td align='left' valign='top'>&nbsp; </td></tr>
-<tr><td align='left' valign='top' >
-<p class="sectitle">Feedback and Suggestions:</p>
-<p class="indent">
-We are always looking for ways to improve these events. If you have feedback you
-believe would help improve this document or the hackathons themselves, please
-feel free to contact Susan Rathbun (susan at sdsc.edu) or Mary Thomas
-(mthomas at sdsc.edu) with your suggestions.</p>
-</td></tr>
+              <tr><td align='left' valign='top'> &nbsp;  </td></tr>
+              <tr><td align='left' valign='top' >
+                <p class="sectitle">Acknowledgements:</p>
+                <p> &nbsp; </p>
+                <p class="indent">If the work you accomplish at the hackathon leads to a
+                  future publication, we encourage you to recognize the mentor(s) and
+                  hackathon in the acknowledgement section of the publication. E.g.,</p>
+                  <blockquote>
+                    <p class="indent"><em>The authors would like to thank [Organizers of event]
+                      for organizing the [Year][Name of Specific Hackathon] and give special
+                      thanks to our mentors [Name of Mentor(s)] for their contributions
+                      to this work</em></p>
+                    </blockquote>
+                    <p class="indent">Remember, the mentors volunteer their time to help at
+                      these events and such recognition is a nice way of saying thank you.</p>
+                    </p>
+                  </td></tr>
+                  <tr><td align='left' valign='top'>&nbsp; </td></tr>
+                  <tr><td align='left' valign='top' >
+                    <p class="sectitle">Feedback and Suggestions:</p>
+                    <p class="indent">
+                      We are always looking for ways to improve these events. If you have feedback you
+                      believe would help improve this document or the hackathons themselves, please
+                      feel free to contact Susan Rathbun (susan at sdsc.edu) or Mary Thomas
+                      (mthomas at sdsc.edu) with your suggestions.</p>
+                    </td></tr>
 
-  </td></tr>
-  </table> <!--- End Main Table --->
+                  </td></tr>
+                </table> <!--- End Main Table --->
 
 </div><!-- /.container -->
 </td></tr>
