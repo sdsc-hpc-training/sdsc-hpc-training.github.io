@@ -27,6 +27,7 @@ color: #FF0000;
 
 p.address{
     font-size: smaller;
+  padding: 0;
 }
 
 h1 {
@@ -43,15 +44,24 @@ p {
 }
 p.normal {
   font-style: normal;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0;
 }
 
 p.descr {
   font-style: italic;
   text-align: left;
   color: black;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0;
 }
 p.italic {
   font-style: italic;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0;
 }
 
 p.oblique {
@@ -62,6 +72,9 @@ p.newsleft {
   color: darkred;
   font-weight: bold;
 font-size: large;
+line-height: 1.25em;
+margin: 0;
+padding: 0;
 }
 p.newscenter {
   text-align: center;
@@ -84,7 +97,7 @@ p.newsitem {
   text-align: left;
   color: indianred;
   font-weight: bold;
-  margin: 0.5em;
+  margin: 0;
   padding: 0;
 }
 p.hdrcntr {
@@ -103,12 +116,18 @@ p.sectitle {
   text-align: left;
   color: dodgerblue;
   font-weight: bold;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0;
 }
 
 #paral {
   text-align: left;
   color: #333;
   margin-left: 50px;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -125,18 +144,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-      .button {
-        background-color: #6699cc;
-        border: none;
-        color: white;
-        padding: 10px 60px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 25px;
-        margin: 4px 2px;
-        cursor: pointer;
-      }
+
  .tab {
      margin-left: 40px;
 }
