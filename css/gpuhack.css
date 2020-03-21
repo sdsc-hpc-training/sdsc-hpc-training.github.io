@@ -83,10 +83,7 @@ p.newscenter {
 font-size: large;
 }
 
-p.alignright {
-  text-align: right;
-  font-weight: bold;
-}
+
 p.newscntr {
   text-align: center;
   color: darkred;
@@ -119,6 +116,10 @@ p.sectitle {
   line-height: 1.25em;
   margin: 0;
   padding: 0;
+}
+p.aligncenter {
+  text-align: center;
+  font-weight: bold;
 }
 
 #paral {
