@@ -2,12 +2,15 @@ body {
     font-family: verdana;
     margin: 60px auto;
     width: 70%;
+    padding: 0px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    color: 00FF00;
+
 }
 nav ul li, footer ul li {
     display: inline;
@@ -15,11 +18,13 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #000080;
+    color: #0000FF;
 }
 a:hover {
     text-decoration: underline;
 }
+color: #FF0000;
+
 p.address{
     font-size: smaller;
 }
@@ -31,8 +36,10 @@ h1 {
 p {
     font-family: verdana;
     font-size: 1em;
-    line-height: 1em;
+    line-height: 1.25em;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 p.normal {
   font-style: normal;
@@ -40,7 +47,7 @@ p.normal {
 
 p.descr {
   font-style: italic;
-  text-align: center;
+  text-align: left;
   color: black;
 }
 p.italic {
@@ -50,9 +57,25 @@ p.italic {
 p.oblique {
   font-style: oblique;
 }
-
-p.news {
+p.newsleft {
   text-align: left;
+  color: darkred;
+  font-weight: bold;
+font-size: large;
+}
+p.newscenter {
+  text-align: center;
+  color: darkred;
+  font-weight: bold;
+font-size: large;
+}
+
+p.alignright {
+  text-align: right;
+  font-weight: bold;
+}
+p.newscntr {
+  text-align: center;
   color: darkred;
   font-weight: bold;
 font-size: large;
@@ -61,8 +84,21 @@ p.newsitem {
   text-align: left;
   color: indianred;
   font-weight: bold;
+  margin: 0.5em;
+  padding: 0;
 }
-
+p.hdrcntr {
+  text-align: center;
+  color: darkred;
+  font-weight: bold;
+font-size: large;
+}
+p.hdrleft {
+  text-align: left;
+  color: darkred;
+  font-weight: bold;
+font-size: large;
+}
 p.sectitle {
   text-align: left;
   color: dodgerblue;
@@ -101,9 +137,13 @@ ul.posts li {
         margin: 4px 2px;
         cursor: pointer;
       }
- .tab { 
-     margin-left: 40px; 
+ .tab {
+     margin-left: 40px;
 }
 .indent {
   margin-left:2em;
+}
+
+table#ovw {
+  border-width: thick;
 }

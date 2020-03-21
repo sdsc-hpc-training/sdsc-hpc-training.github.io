@@ -8,31 +8,72 @@ layout: default
    <head>
 	<title>{{ page.title }}</title>
 	<!-- link to main stylesheet -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" type="text/css" href="/css/gpuhack.css">
    </head>
 <body>
-    <table border=0 width="75%""\ align="center"> <!---- begin main table --->
-      <tr><td align='center' valign='top'>
-        <img src="./images/gpuhackathon_weblogo.v4.png" alt="SDSC GPU Hackathon" width="800px" class="center"/>
+  <table border=0 width="96%"" align="center">
+    <tr> <td align='left' valign='top'>
+
+    <table border=0 width="100%"" align="left">
+    <tr bgcolor="black">
+      <td align='left' valign='top' width="5%">
+          <img src="./images/gpuhackathon_weblogo.v4.png"
+              alt="SDSC GPU Hackathon" width="800px" class="left"/>
+      </td>
+    </tr>
+    <tr>
+      <td align='left' valign='top'>
+        <div class="w3-bar w3-khaki w3-card-4 w3-mobile w3-border w3-hover-color ">
+          <a href="/gpuhackathon"
+               class="w3-bar-item w3-button w3-hover-indigo w3-border-right">Home</a>
+          <a href="/gpuhackathon/attendee_guide"
+               class="w3-bar-item w3-button w3-hover-indigo w3-border-right">Attendee Guide</a>
+          <a href="/gpuhackathon/agenda"
+               class="w3-bar-item w3-button w3-hover-indigo w3-border-right">Agenda</a>
+          <a href="/gpuhackathon/news"
+                class="w3-bar-item w3-button w3-hover-indigo w3-border-right">News</a>
+        </div>
         </td></tr>
-      <tr><td align='left' valign='top'>
-            <nav>
-            <ul>
+<!-----
+        <tr>  <td align='left' valign='top'>
+           <nav>
+             <ul>
                   <li><a href="/gpuhackathon">GPU Hackathon Home</a></li>
                   <li><a href="/gpuhackathon/attendee_guide" target="_blank">Attendee Guide</a></li>
                   <li><a href="/gpuhackathon/agenda" target="_blank">Agenda</a></li>
-            </ul>
-            </nav>
-      </td></tr>
-    </table>
+             </ul>
+             </nav>
+         </td>  </tr>
+----->
+      </table>
 
-<!----
----->
+</td></tr>
+<tr><td align='left' valign='top'>
 <div class="container">
     {{ content }}
 </div><!-- /.container -->
+</td></tr>
+
+<tr><td align='left' valign='top'>
 <footer>
-    <table border=0 width=96%>
+  <!---- begin sponsor table --->
+  <table border=0 width=100% align="center" cellspacing="10">
+  <tr>
+    <td align='left' valign='center'>
+    <img src="./images/SDSClogo-plusname-red.jpg" alt="SDSC Logo" height="40px" />
+    </td>
+    <td align='center' valign='center'>
+    <img src="./images/NVLogo_H_2160x1080.png" alt="NVIDIA Logo" height="90px" />
+    </td>
+    <td align='center' valign='center'>
+    <img src="./images/NERSC_Full_tag.png" alt="NERSC_Full_tag.png Logo" height="80px" />
+    </td>
+    <td align='right' valign='center'>
+    <img src="./images/olcf_retina_logo.png" alt="OLCF Logo" height="35px" />
+    </td></tr>
+  </table>  <!---- end of sponsor table --->
+    <table border=0 width=90% align='center'>
        <tr><td align="left">
           <a href="mailto:events@sdsc.edu">email: events at sdsc.edu</a>
        </td>
@@ -40,8 +81,9 @@ layout: default
          <a href="https://www.sdsc.edu/education_and_training/training/index.html">Training@SDSC</a>
        </td>
        <tr>
-      </table>    	
-
+   </table>
 </footer>
+</td></tr>
+</table>
 </body>
 </html>
