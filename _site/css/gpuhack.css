@@ -48,7 +48,10 @@ p.normal {
   margin: 0;
   padding: 0;
 }
-
+p.aligncenter {
+  text-align: center;
+  font-weight: bold;
+}
 p.descr {
   font-style: italic;
   text-align: left;
@@ -83,7 +86,6 @@ p.newscenter {
 font-size: large;
 }
 
-
 p.newscntr {
   text-align: center;
   color: darkred;
@@ -116,10 +118,6 @@ p.sectitle {
   line-height: 1.25em;
   margin: 0;
   padding: 0;
-}
-p.aligncenter {
-  text-align: center;
-  font-weight: bold;
 }
 
 #paral {
