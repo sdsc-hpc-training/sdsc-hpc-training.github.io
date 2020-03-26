@@ -74,27 +74,58 @@ title: SDSC GPU Hackathon - Attendee Guide
             <p><b>Preparing Your Code to Run on the Hackathon Compute System:</b></p>
             <p> &nbsp; </p>
             <p class="indent">
-              Although you might be using your application for production work already, that does not ensure it is ready for the work you will be performing at the hackathon. For example, if your code takes four hours to produce results, it will be difficult to test the many incremental changes you will likely be making to your code during the event. To address this point, this section outlines recommendations for preparing your application for the event.
+              Although you might be using your application for production work already, that does not 
+              ensure it is ready for the work you will be performing at the hackathon. For example, 
+              if your code takes four hours to produce results, it will be difficult to test the many 
+              incremental changes you will likely be making to your code during the event. To address 
+              this point, this section outlines recommendations for preparing your application for the event.
             </p>
-      <p> &nbsp; </p>
-            <p class="indent">Ideally, your application should be limited to a few thousand lines of code. If you are working with a much larger application, it is preferable to extract specific kernels or a “mini-app” that contains only the relevant parts of the full application whenever possible. This makes the code more manageable for all your team members (including the mentors - who are likely not familiar with the code) and helps to eliminate potential problems with other parts of the code that are unrelated to the work being performed. Once you have your reduced application running on the GPUs, you can add the changes you made into the full application to understand how it speeds up (or slows down) the application as a whole.
+            <p> &nbsp; </p>
+            <p class="indent">Ideally, your application should be limited to a few thousand lines of code. 
+              If you are working with a much larger application, it is preferable to extract specific kernels 
+              or a “mini-app” that contains only the relevant parts of the full application whenever possible.
+              This makes the code more manageable for all your team members (including the mentors - who are
+              likely not familiar with the code) and helps to eliminate potential problems with other parts of 
+              the code that are unrelated to the work being performed. Once you have your reduced application 
+              running on the GPUs, you can add the changes you made into the full application to understand 
+              how it speeds up (or slows down) the application as a whole.
             </p>
-      <p> &nbsp; </p>
+            <p> &nbsp; </p>
             <p class="indent">
-              Your code should also be self-contained whenever possible. By eliminating external dependencies (e.g. netCDF), you will not need to rely on specific packages (or specific versions of packages) being available on the hackathon system. To do so, you can include any code needed for external dependencies within (or alongside) your application. If this is not possible/practical, you should make the dependency known to the local hackathon organizer ahead of the event so it can be installed. In addition, your build system should be free of any specific system dependencies (e.g. Cray computing environment). Removing these external and system-specific dependencies will make it easier to get your code running on the hackathon system.
+              Your code should also be self-contained whenever possible. By eliminating external dependencies 
+              (e.g. netCDF), you will not need to rely on specific packages (or specific versions of packages) 
+              being available on the hackathon system. To do so, you can include any code needed for external 
+              dependencies within (or alongside) your application. If this is not possible/practical, you 
+              should make the dependency known to the local hackathon organizer ahead of the event so it can 
+              be installed. In addition, your build system should be free of any specific system dependencies 
+              (e.g. Cray computing environment). Removing these external and system-specific dependencies will 
+              make it easier to get your code running on the hackathon system.
             </p>
             <p class="indent">
-              It is also important to understand any dependencies that might arise due to your choice of programming model. For example, if you plan to use OpenACC to target GPUs, you will likely want to use the PGI compilers (or now possibly later versions of GCC), so you need to make sure your code compiles with PGI. Doing so before the event helps to ensure your time at the hackathon is actually spent on GPU work (not getting your code compiled). Your mentors should be able to help you identify these types of dependencies.
+              It is also important to understand any dependencies that might arise due to your choice of 
+              programming model. For example, if you plan to use OpenACC to target GPUs, you will likely want 
+              to use the PGI compilers (or now possibly later versions of GCC), so you need to make sure your 
+              code compiles with PGI. Doing so before the event helps to ensure your time at the hackathon is 
+              actually spent on GPU work (not getting your code compiled). Your mentors should be able to help 
+              you identify these types of dependencies.
             </p>
+            <p> &nbsp; </p>
             <p class="indent">
-              After making any such changes to your code (e.g., using different compiler, extracting kernels, building your own libraries), you should always confirm that your application still compiles, runs, and (of course) gives the correct results. Ideally, this should be done on the system(s) you will be using during the event. This workflow (make changes - compile - run - check results) will be used frequently during the week of the event, so it is important that the process is efficient. In general, you should configure your application to run in ~30s, and only run it on a single process (if possible).
+              After making any such changes to your code (e.g., using different compiler, extracting kernels, 
+              building your own libraries), you should always confirm that your application still compiles, 
+              runs, and (of course) gives the correct results. Ideally, this should be done on the system(s) 
+              you will be using during the event. This workflow (make changes - compile - run - check results) 
+              will be used frequently during the week of the event, so it is important that the process is 
+              efficient. In general, you should configure your application to run in ~30s, and only run it 
+              on a single process (if possible).
             </p>
-            <p class="indent">blah blah</p>
             <p> &nbsp; </p>
             <p><b>Understanding Your Code and Simplifying Your Workflow:</b></p>
             <p> &nbsp; </p>
-            <p class="indent">blah blah</p>
+      <!-----
+            <p class="indent">content here </p>
             <p> &nbsp; </p>
+----->
           </td></tr>
           <tr><td align='left' valign='top'> &nbsp;  </td></tr>
           <tr><td align='left' valign='top' >
